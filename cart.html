@@ -5,26 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== FLATICON ===============-->
+      <!-- Liên kết đến thư viện biểu tượng Flaticon -->
     <link
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css"
     />
 
     <!--=============== SWIPER CSS ===============-->
+     <!-- Liên kết đến CSS của thư viện Swiper -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <!--=============== CSS ===============-->
+     <!-- Liên kết đến tệp CSS của dự án -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <title>Ecommerce Website</title>
   </head>
   <body>
     <!--=============== HEADER ===============-->
+     <!-- Phần đầu trang -->
     <header class="header">
       <div class="header__top">
+        <!-- Thông tin liên hệ và nút đăng nhập/đăng ký -->
         <div class="header__container container">
           <div class="header__contact">
             <span>(+01) - 2345 - 6789</span>
@@ -38,8 +43,10 @@
           </a>
         </div>
       </div>
-
+      
+      <!-- Thanh điều hướng -->
       <nav class="nav container">
+        <!-- Logo trang -->
         <a href="index.html" class="nav__logo">
           <img
             class="nav__logo-img"
@@ -49,6 +56,7 @@
         </a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
+          <!-- Các liên kết điều hướng -->
             <li class="nav__item">
               <a href="index.html" class="nav__link">Home</a>
             </li>
@@ -65,6 +73,7 @@
               <a href="login-register.html" class="nav__link">Login</a>
             </li>
           </ul>
+          <!-- Thanh tìm kiếm -->
           <div class="header__search">
             <input
               type="text"
@@ -77,6 +86,7 @@
           </div>
         </div>
         <div class="header__user-actions">
+          <!-- Các nút hành động của người dùng (wishlist và giỏ hàng) -->
           <a href="wishlist.html" class="header__action-btn" title="Wishlist">
             <img src="assets/img/icon-heart.svg" alt="" />
             <span class="count">3</span>
@@ -90,8 +100,10 @@
     </header>
 
     <!--=============== MAIN ===============-->
+    <!-- Phần nội dung chính -->
     <main class="main">
       <!--=============== BREADCRUMB ===============-->
+      <!-- Breadcrumb: Hiển thị đường dẫn trang hiện tại -->
       <section class="breadcrumb">
         <ul class="breadcrumb__list flex container">
           <li><a href="index.html" class="breadcrumb__link">Home</a></li>
@@ -103,8 +115,10 @@
       </section>
 
       <!--=============== CART ===============-->
+      <!-- Phần giỏ hàng -->
       <section class="cart section--lg container">
         <div class="table__container">
+          <!-- Bảng hiển thị sản phẩm trong giỏ -->
           <table class="table">
             <thead>
               <tr>
@@ -117,6 +131,7 @@
               </tr>
             </thead>
             <tbody>
+              <!-- Các sản phẩm trong giỏ -->
               <tr>
                 <td>
                   <img
@@ -184,10 +199,12 @@
                 <td><span class="subtotal">$220</span></td>
                 <td><i class="fi fi-rs-trash table__trash"></i></td>
               </tr>
+              <!-- Lặp lại cho các sản phẩm khác -->
             </tbody>
           </table>
         </div>
 
+        <!-- Hành động trên giỏ hàng -->
         <div class="cart__actions">
           <a href="#" class="btn flex btn__md">
             <i class="fi-rs-shuffle"></i> Update Cart
@@ -200,9 +217,11 @@
         <div class="divider">
           <i class="fi fi-rs-fingerprint"></i>
         </div>
-
+        
+        <!-- Phần tổng giá trị giỏ hàng -->
         <div class="cart__group grid">
           <div>
+            <!-- Tính phí giao hàng -->
             <div class="cart__shippinp">
               <h3 class="section__title">Calculate Shipping</h3>
               <form action="" class="form grid">
@@ -226,6 +245,8 @@
                 </div>
               </form>
             </div>
+
+            <!-- Áp dụng mã giảm giá -->
             <div class="cart__coupon">
               <h3 class="section__title">Apply Coupon</h3>
               <form action="" class="coupon__form form grid">
@@ -245,6 +266,7 @@
             </div>
           </div>
 
+          <!-- Bảng tổng giá trị giỏ hàng -->
           <div class="cart__total">
             <h3 class="section__title">Cart Totals</h3>
             <table class="cart__total-table">
@@ -269,6 +291,7 @@
       </section>
 
       <!--=============== NEWSLETTER ===============-->
+      <!-- Phần newsletter -->
       <section class="newsletter section">
         <div class="newsletter__container container grid">
           <h3 class="newsletter__title flex">
