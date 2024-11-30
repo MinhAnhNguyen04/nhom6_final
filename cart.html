@@ -293,8 +293,11 @@
       <!--=============== NEWSLETTER ===============-->
       <!-- Phần newsletter -->
       <section class="newsletter section">
+         <!-- Container chính của phần newsletter, sử dụng lưới CSS để bố trí -->
         <div class="newsletter__container container grid">
+          <!-- Tiêu đề của phần newsletter, bao gồm biểu tượng và dòng chữ -->
           <h3 class="newsletter__title flex">
+            <!-- Biểu tượng email đại diện cho newsletter -->
             <img
               src="./assets/img/icon-email.svg"
               alt=""
@@ -302,15 +305,19 @@
             />
             Sign in to Newsletter
           </h3>
+          <!-- Mô tả ngắn về lợi ích khi đăng ký newsletter -->
           <p class="newsletter__description">
             ...and receive $25 coupon for first shopping.
           </p>
+          <!-- Biểu mẫu để người dùng nhập email và gửi thông tin -->
           <form action="" class="newsletter__form">
+            <!-- Ô nhập email -->
             <input
               type="text"
               placeholder="Enter Your Email"
               class="newsletter__input"
             />
+            <!-- Nút gửi thông tin để đăng ký -->
             <button type="submit" class="newsletter__btn">Subscribe</button>
           </form>
         </div>
@@ -319,8 +326,11 @@
 
     <!--=============== FOOTER ===============-->
     <footer class="footer container">
+      <!-- Container chính của footer sử dụng grid -->
       <div class="footer__container grid">
+        <!-- Các thông tin liên hệ trong phần footer -->
         <div class="footer__content">
+          <!-- Logo trang web -->
           <a href="index.html" class="footer__logo">
             <img src="./assets/img/logo.svg" alt="" class="footer__logo-img" />
           </a>
@@ -375,6 +385,7 @@
             </div>
           </div>
         </div>
+        <!-- Cột 2: Liên kết thông tin -->
         <div class="footer__content">
           <h3 class="footer__title">Address</h3>
           <ul class="footer__links">
@@ -386,6 +397,7 @@
             <li><a href="#" class="footer__link">Support Center</a></li>
           </ul>
         </div>
+        <!-- Cột 3: Các liên kết tài khoản -->
         <div class="footer__content">
           <h3 class="footer__title">My Account</h3>
           <ul class="footer__links">
@@ -397,6 +409,7 @@
             <li><a href="#" class="footer__link">Order</a></li>
           </ul>
         </div>
+        <!-- Cột 4: Phương thức thanh toán -->
         <div class="footer__content">
           <h3 class="footer__title">Secured Payed Gateways</h3>
           <img
@@ -406,6 +419,7 @@
           />
         </div>
       </div>
+      <!-- Dòng cuối của footer -->
       <div class="footer__bottom">
         <p class="copyright">&copy; 2024 Evara. All right reserved</p>
         <span class="designer">Designer by Crypticalcoder</span>
@@ -413,8 +427,9 @@
     </footer>
 
     <!--=============== SWIPER JS ===============-->
+    <!-- Thư viện Swiper.js cho các hiệu ứng carousel -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <!-- Tập tin JavaScript chính của trang -->
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
   </body>
